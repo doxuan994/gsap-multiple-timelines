@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align:center;
+    background-color: #FFF3D3;
+}
+svg {
+    width: 450px;
+    display: flex;
+    margin: 0 auto;
+}
+.chapeu,
+.oculos,
+.bigode {
+    fill: none;
+    stroke: #1E1817;
+    visibility: hidden;
+}
+
+
+#replay,
+#replay svg {
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+#slider,
+#sliderOculos {
+    width: 400px;
+    margin: 20px auto;
+    display: flex;
+    cursor: pointer;
+    color: gold;
+}
+.ui-slider {
+    height: 2px;
+    background: none;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default  {
+    background: #1E1817;
+    border: none;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
